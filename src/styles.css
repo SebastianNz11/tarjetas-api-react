@@ -1,0 +1,34 @@
+.fondo {
+  background-image: linear-gradient(
+    to bottom,
+    #579fd9,
+    #4d96d2,
+    #448ecb,
+    #3a85c4,
+    #2f7dbd
+  );
+}
+
+.transUp {
+  transition: 0.5s, color 0.1s;
+  -webkit-transition: 0.5s, color 0.1s;
+  -moz-transition: 0.5s, color 0.1s;
+}
+.transUp:hover {
+  transform: translatey(-20px);
+  -webkit-transform: translatey(-20px);
+  -moz-transform: translatey(-20px);
+}
+
+.borde {
+  border-color: #3e498f;
+  border-style: solid;
+  border-radius: 25px;
+  border-width: 2px;
+}
+
+.sombra {
+  -webkit-box-shadow: -15px 11px 5px 0px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: -15px 11px 5px 0px rgba(0, 0, 0, 0.6);
+  box-shadow: -15px 11px 5px 0px rgba(0, 0, 0, 0.6);
+}

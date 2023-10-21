@@ -1,0 +1,10 @@
+.back {
+  background-image: linear-gradient(
+    to bottom,
+    #c5ddf2,
+    #b8d6ef,
+    #abceed,
+    #9ec7ea,
+    #91c0e8
+  );
+}
